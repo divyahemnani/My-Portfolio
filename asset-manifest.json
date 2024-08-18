@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.41454ac6.css",
+    "main.js": "/My-Portfolio/static/js/main.c13e5786.js",
+    "static/media/laptop.jpg": "/My-Portfolio/static/media/laptop.60fdec7f0ade526fadfc.jpg",
+    "static/media/newimg.png": "/My-Portfolio/static/media/newimg.a1c1626d3016a827fa24.png",
+    "static/media/Divya_CV.pdf": "/My-Portfolio/static/media/Divya_CV.fc10f31caeaa9b5f65d1.pdf",
+    "static/media/power-bi.384x512.png": "/My-Portfolio/static/media/power-bi.384x512.b0a1152cdc0e94dc7b89.png",
+    "static/media/python_5968350.png": "/My-Portfolio/static/media/python_5968350.6a5cbc319ab3ddf8ef92.png",
+    "static/media/Bootstrapnew.png": "/My-Portfolio/static/media/Bootstrapnew.7ec629589d73f8a028c5.png",
+    "static/media/Visual Studio Code (VS Code).png": "/My-Portfolio/static/media/Visual Studio Code (VS Code).c451d51c85d02c2a3841.png",
+    "static/media/Git.png": "/My-Portfolio/static/media/Git.8d37adcd9121c2aba1e0.png",
+    "static/media/html_1051277.png": "/My-Portfolio/static/media/html_1051277.6e930594286d8afe4c79.png",
+    "static/media/css-3_732190.png": "/My-Portfolio/static/media/css-3_732190.463e319bad8e0edf1ef7.png",
+    "static/media/NumPy.png": "/My-Portfolio/static/media/NumPy.ad6ce4268be9e06f8cb4.png",
+    "static/media/Redux.png": "/My-Portfolio/static/media/Redux.0bac1762f31952127f15.png",
+    "static/media/js_5968292.png": "/My-Portfolio/static/media/js_5968292.3dfb665e058d08c99f28.png",
+    "static/media/React.png": "/My-Portfolio/static/media/React.98ff38735baa4c1b0381.png",
+    "index.html": "/My-Portfolio/index.html",
+    "static/media/school.svg": "/My-Portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/My-Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "main.41454ac6.css.map": "/My-Portfolio/static/css/main.41454ac6.css.map",
+    "main.c13e5786.js.map": "/My-Portfolio/static/js/main.c13e5786.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41454ac6.css",
+    "static/js/main.c13e5786.js"
+  ]
+}
