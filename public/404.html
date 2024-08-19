@@ -1,0 +1,6 @@
+<script type="text/javascript">
+  // Redirect all 404s to the root of the app, so React Router can take over
+  var path = window.location.pathname;
+  var newUrl = window.location.origin + "/?" + path.substring(1);
+  window.location.replace(newUrl);
+</script>

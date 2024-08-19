@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+//import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 import NavBar from "./Components/NavBar";
 import Home from "./Components/Home";
@@ -50,6 +51,7 @@ function App() {
             element={<About lightcolor={li} darkcolor={da} coll={color} />}
           />
           <Route path="/resume" element={<Resume />} />
+          <Route element={NotFound} />
 
           {/*<Home lightcolor={li} darkcolor={da} coll={color} />*/}
           {/*<ContactBlock />*/}
