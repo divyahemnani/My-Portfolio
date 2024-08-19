@@ -51,7 +51,6 @@ function App() {
             element={<About lightcolor={li} darkcolor={da} coll={color} />}
           />
           <Route path="/resume" element={<Resume />} />
-          <Route element={NotFound} />
 
           {/*<Home lightcolor={li} darkcolor={da} coll={color} />*/}
           {/*<ContactBlock />*/}
