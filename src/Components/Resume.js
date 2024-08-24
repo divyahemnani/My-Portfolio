@@ -1,30 +1,23 @@
 import React, { useState, useEffect } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import pdfFile from "./Divya_CV.pdf";
+import pdfFile from "./Divya React Developer Resume.pdf";
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
 
 const Resume = () => {
-  const [width, setWidth] = useState(900);
+  const [width, setWidth] = useState(1200);
 
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
   return (
     <>
-      <div
-        div
-        className="container-fluid"
-        style={{
-          paddingLeft: 230,
-          paddingRight: 230,
-        }}
-      >
+      <div className="container-fluid">
         <div
           className="my-4 text-center"
           style={{ justifyContent: "center", position: "relative" }}
         >
           <a
-            href="https://drive.google.com/file/d/1Pnq7CYQ8AWRcg6WBn-dMHTrIhgmvpp2S/view?usp=sharing"
+            href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,8 +34,8 @@ const Resume = () => {
             </button>
           </a>
         </div>
-        <div style={{ boxShadow: "0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25)" }}>
-          <Document file={pdfFile}>
+        <div className="row">
+          <Document file={pdfFile} className="d-flex justify-content-center">
             <Page
               pageNumber={1}
               renderAnnotationLayer={false}
@@ -56,7 +49,7 @@ const Resume = () => {
           style={{ justifyContent: "center", position: "relative" }}
         >
           <a
-            href="https://drive.google.com/file/d/1Pnq7CYQ8AWRcg6WBn-dMHTrIhgmvpp2S/view?usp=sharing"
+            href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >

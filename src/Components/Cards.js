@@ -26,76 +26,67 @@ function Cards() {
         <div className="my-3">
           <h3>Languages and Databases</h3>
         </div>
-        <div className="row text-center">
-          <div className="col-sm">
+        <div className="row text-center justify-content-center">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
             <NewtestCard imgsrc={htmlicon} title="HTML5" />
           </div>
 
-          <div className="col-sm">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
             <NewtestCard imgsrc={cssicon} title="CSS" />
           </div>
 
-          <div className="col-sm">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
             <NewtestCard imgsrc={jsicon} title="Javascript" />
           </div>
 
-          <div className="col-sm">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
             <NewtestCard imgsrc={pythonicon} title="Python" />
           </div>
-          <div className="col-sm">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
             <NewtestCard imgsrc={mysqlicon} title="MySQL" />
           </div>
         </div>
         <div className="my-4">
-          <br></br>
-          <br></br>
           <h3>Libraries and Frameworks</h3>
         </div>
-        <div>
-          <div className="row text-center">
-            <div className="col-sm">
-              <NewtestCard imgsrc={reacticon} title="React" />
-            </div>
+        <div className="row text-center justify-content-center">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={reacticon} title="React" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={reduxicon} title="Redux" />
-            </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={reduxicon} title="Redux" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={numpyicon} title="Numpy" />
-            </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={numpyicon} title="Numpy" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={pandasicon} title="Pandas" />
-            </div>
-            <div className="col-sm">
-              <NewtestCard imgsrc={bootstrapicon} title="Bootstrap" />
-            </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={pandasicon} title="Pandas" />
+          </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={bootstrapicon} title="Bootstrap" />
           </div>
         </div>
         <div className="my-4">
-          <br></br>
-          <br></br>
           <h3>Tools</h3>
         </div>
-        <div>
-          <div className="row text-center">
-            <div className="col-sm">
-              <NewtestCard imgsrc={vscodeicon} title="Visual Studio Code" />
-            </div>
+        <div className="row text-center justify-content-center">
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={vscodeicon} title="Visual Studio Code" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={giticon} title="Git" />
-            </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={giticon} title="Git" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={sqlservericon} title="SQL Server" />
-            </div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={sqlservericon} title="SQL Server" />
+          </div>
 
-            <div className="col-sm">
-              <NewtestCard imgsrc={powerbiicon} title="Power BI" />
-            </div>
-            <div className="col-sm"></div>
+          <div className="col-12 col-md-4 col-lg-2 my-2">
+            <NewtestCard imgsrc={powerbiicon} title="Power BI" />
           </div>
         </div>
       </div>

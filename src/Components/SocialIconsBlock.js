@@ -3,7 +3,11 @@ import React from "react";
 function BlockTest() {
   return (
     <div>
-      <a href="https://github.com/divyahemnani/">
+      <a
+        href="https://github.com/divyahemnani/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <button
           className="btn rounded-circle"
           style={{
@@ -15,7 +19,11 @@ function BlockTest() {
         </button>
       </a>
 
-      <a href="https://www.linkedin.com/in/divyahemnani/">
+      <a
+        href="https://www.linkedin.com/in/divyahemnani/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <button
           className="btn rounded-circle mx-2"
           style={{
@@ -27,7 +35,11 @@ function BlockTest() {
         </button>
       </a>
 
-      <a href="mailto:divya11hemnani@gmail.com">
+      <a
+        href="mailto:divya11hemnani@gmail.com"
+        target="_blank"
+        rel="noreferrer"
+      >
         <button
           className="btn rounded-circle "
           style={{

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 //import Dimg from "./Dimg.png";
 import { useNavigate, Link } from "react-router-dom";
 import MaterialUISwitch from "./RadioButton";
+import "./NavBar.css";
 
 export default function Navbar(props) {
   /*const li = props.lightcolor;
@@ -12,6 +13,26 @@ export default function Navbar(props) {
     navigate("/contact");
   };
 
+  const [isOpen, setIsOpen] = useState(false);
+  const navbarCollapseRef = useRef(null);
+
+  const handleToggle = () => {
+    setIsOpen(!isOpen);
+  };
+
+  const closeNavbar = () => {
+    if (isOpen) {
+      setIsOpen(false);
+      if (navbarCollapseRef.current) {
+        navbarCollapseRef.current.classList.remove("show");
+      }
+    }
+  };
+  const handleClick = () => {
+    GoToNewPage();
+    closeNavbar();
+  };
+
   return (
     <>
       <nav
@@ -20,38 +41,48 @@ export default function Navbar(props) {
         } bg-${props.coll === props.lightcolor ? "dark" : "light"}`}
       >
         <div className="container-fluid">
-          <Link
-            to="/"
-            className="navbar-brand active"
-            style={{
-              paddingTop: 10,
-              paddingLeft: 100,
-            }}
+          <div
+            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+            id="navbarNav"
+            ref={navbarCollapseRef}
           >
-            {/*<img
+            <Link
+              to="/"
+              className="navbar-brand active"
+              onClick={closeNavbar}
+              style={{
+                paddingTop: 10,
+                paddingLeft: 100,
+              }}
+            >
+              {/*<img
               src={Dimg}
               alt="Logo"
               width={30}
               height={24}
               className="d-inline-block align-text-top"
             />*/}
-            <strong>
-              <h5>Divya Hemnani</h5>
-            </strong>
-          </Link>
+              <strong>
+                <h5>Divya Hemnani</h5>
+              </strong>
+            </Link>
+          </div>
           <button
             className="navbar-toggler"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
+            onClick={handleToggle}
+            aria-controls="navbarNav"
+            aria-expanded={isOpen}
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
+            id="navbarNav"
+            ref={navbarCollapseRef}
+          >
             <ul
               className="navbar-nav ms-auto mb-2 mb-lg-0 "
               style={{
@@ -59,27 +90,27 @@ export default function Navbar(props) {
               }}
             >
               <li className="nav-item">
-                <Link to="/about" className="nav-link" aria-current="page">
-                  <strong>About</strong>
+                <Link to="/about" className="nav-link" onClick={closeNavbar}>
+                  <strong>About Me</strong>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/journey" className="nav-link">
-                  <strong>My-Journey</strong>
+                <Link to="/journey" className="nav-link" onClick={closeNavbar}>
+                  <strong>My Journey</strong>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/resume" className="nav-link">
+                <Link to="/resume" className="nav-link" onClick={closeNavbar}>
                   <strong>Resume</strong>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/skills" className="nav-link">
+                <Link to="/skills" className="nav-link" onClick={closeNavbar}>
                   <strong>Skills</strong>
                 </Link>
               </li>
               <button
-                onClick={GoToNewPage}
+                onClick={handleClick}
                 type="button"
                 className="btn mx-3"
                 style={{

@@ -22,10 +22,15 @@ function About(props) {
       <div className="container-fluid" id="about">
         <div className="container">
           <div className="row">
-            <div className="col-md-4" style={{ paddingTop: 130 }}>
+            <div className="col-md-4 col-12" style={{ paddingTop: 130 }}>
               <img
-                style={{ boxShadow: "0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25)" }}
-                className="rounded-circle"
+                style={{
+                  boxShadow: "0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25)",
+                  width: "100%",
+                  height: "130%",
+                  maxWidth: "700px",
+                }}
+                className="rounded-circle img-fluid"
                 src={laptop}
                 alt="Logo"
                 width={500}
@@ -33,8 +38,8 @@ function About(props) {
               />
             </div>
 
-            <div className="col-md-2"></div>
-            <div className="col-md-6" style={{ paddingTop: 160 }}>
+            <div className="col-md-2 col-12"></div>
+            <div className="col-md-6 col-12" style={{ paddingTop: 160 }}>
               <div className="my-4">
                 <h1 className="profession" style={{ color: "#7343b1" }}>
                   About Me
@@ -46,17 +51,16 @@ function About(props) {
                   journey in web development started with a curiosity for how
                   things work on the web, and it quickly evolved into a
                   full-fledged career. Over the past two years, I’ve had the
-                  privilege of working with a variety of companies in which I
-                  have delivered the required solution by developing the
-                  front-end and by optimizing the app's performance."I’m always
-                  excited to take on new challenges and collaborate with others.
-                  Feel free to connect with me. Let’s build something
-                  great together!"
+                  privilege of working with a variety of clients in which I have
+                  delivered the required solution by developing the front-end
+                  and by optimizing the app's performance."I’m always excited to
+                  take on new challenges and collaborate with others. Feel free
+                  to connect with me. Let’s build something great together!"
                 </p>
               </div>
               <div className="text-center my-4">
                 <a
-                  href="https://drive.google.com/file/d/1Pnq7CYQ8AWRcg6WBn-dMHTrIhgmvpp2S/view?usp=sharing"
+                  href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
