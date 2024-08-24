@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.41454ac6.css",
-    "main.js": "/My-Portfolio/static/js/main.b7afaeaf.js",
+    "main.css": "/My-Portfolio/static/css/main.126ec1db.css",
+    "main.js": "/My-Portfolio/static/js/main.e90a0535.js",
     "static/media/laptop.jpg": "/My-Portfolio/static/media/laptop.60fdec7f0ade526fadfc.jpg",
-    "static/media/newimg.png": "/My-Portfolio/static/media/newimg.a1c1626d3016a827fa24.png",
-    "static/media/Divya_CV.pdf": "/My-Portfolio/static/media/Divya_CV.fc10f31caeaa9b5f65d1.pdf",
+    "static/media/newimg.png": "/My-Portfolio/static/media/newimg.642463ee5b9db24db6b7.png",
+    "static/media/Divya React Developer Resume.pdf": "/My-Portfolio/static/media/Divya React Developer Resume.d0b8a17f44cadd0dd60b.pdf",
     "static/media/power-bi.384x512.png": "/My-Portfolio/static/media/power-bi.384x512.b0a1152cdc0e94dc7b89.png",
     "static/media/python_5968350.png": "/My-Portfolio/static/media/python_5968350.6a5cbc319ab3ddf8ef92.png",
     "static/media/Bootstrapnew.png": "/My-Portfolio/static/media/Bootstrapnew.7ec629589d73f8a028c5.png",
@@ -19,11 +19,11 @@
     "index.html": "/My-Portfolio/index.html",
     "static/media/school.svg": "/My-Portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/My-Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
-    "main.41454ac6.css.map": "/My-Portfolio/static/css/main.41454ac6.css.map",
-    "main.b7afaeaf.js.map": "/My-Portfolio/static/js/main.b7afaeaf.js.map"
+    "main.126ec1db.css.map": "/My-Portfolio/static/css/main.126ec1db.css.map",
+    "main.e90a0535.js.map": "/My-Portfolio/static/js/main.e90a0535.js.map"
   },
   "entrypoints": [
-    "static/css/main.41454ac6.css",
-    "static/js/main.b7afaeaf.js"
+    "static/css/main.126ec1db.css",
+    "static/js/main.e90a0535.js"
   ]
 }
