@@ -5,3 +5,8 @@
 .navbar-collapse {
   text-align: center;
 }
+@media (max-width: 576px) {
+  .navbar-brand.active {
+    margin-left: 0rem; /* Adjust margin specifically for mobile view */
+  }
+}

@@ -1,13 +1,9 @@
 import React, { useState, useRef } from "react";
-//import Dimg from "./Dimg.png";
 import { useNavigate, Link } from "react-router-dom";
 import MaterialUISwitch from "./RadioButton";
 import "./NavBar.css";
 
 export default function Navbar(props) {
-  /*const li = props.lightcolor;
-  const da = props.darkcolor;*/
-
   const navigate = useNavigate();
   const GoToNewPage = () => {
     navigate("/contact");
@@ -28,9 +24,18 @@ export default function Navbar(props) {
       }
     }
   };
+
   const handleClick = () => {
     GoToNewPage();
     closeNavbar();
+  };
+
+  // Dynamically set the margin based on the screen width
+  const brandStyle = {
+    paddingTop: 10,
+    marginLeft: window.innerWidth < 576 ? "0.5rem" : "4rem",
+    flex: 1,
+    whiteSpace: "nowrap",
   };
 
   return (
@@ -41,32 +46,17 @@ export default function Navbar(props) {
         } bg-${props.coll === props.lightcolor ? "dark" : "light"}`}
       >
         <div className="container-fluid">
-          <div
-            className={`collapse navbar-collapse ${isOpen ? "show" : ""}`}
-            id="navbarNav"
-            ref={navbarCollapseRef}
+          <Link
+            to="/"
+            className="navbar-brand active"
+            onClick={closeNavbar}
+            style={brandStyle}
           >
-            <Link
-              to="/"
-              className="navbar-brand active"
-              onClick={closeNavbar}
-              style={{
-                paddingTop: 10,
-                paddingLeft: 100,
-              }}
-            >
-              {/*<img
-              src={Dimg}
-              alt="Logo"
-              width={30}
-              height={24}
-              className="d-inline-block align-text-top"
-            />*/}
-              <strong>
-                <h5>Divya Hemnani</h5>
-              </strong>
-            </Link>
-          </div>
+            <strong>
+              <h5>Divya Hemnani</h5>
+            </strong>
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -84,7 +74,7 @@ export default function Navbar(props) {
             ref={navbarCollapseRef}
           >
             <ul
-              className="navbar-nav ms-auto mb-2 mb-lg-0 "
+              className="navbar-nav ms-auto mb-2 mb-lg-0"
               style={{
                 paddingRight: 50,
               }}
@@ -127,12 +117,6 @@ export default function Navbar(props) {
               onClick={() => props.showcolor()}
             >
               <MaterialUISwitch />
-              {/*<label
-                className="form-check-label"
-                htmlFor="flexSwitchCheckDefault"
-              >
-                Enable da Mode
-              </label>*/}
             </div>
           </div>
         </div>
