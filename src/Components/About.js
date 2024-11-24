@@ -50,7 +50,7 @@ function About(props) {
                   love for creating intuitive and dynamic user experiences. My
                   journey in web development started with a curiosity for how
                   things work on the web, and it quickly evolved into a
-                  full-fledged career. Over the past two years, I’ve had the
+                  full-fledged career. Over the past three years, I’ve had the
                   privilege of working with a variety of clients in which I have
                   delivered the required solution by developing the front-end
                   and by optimizing the app's performance."I’m always excited to
@@ -60,7 +60,7 @@ function About(props) {
               </div>
               <div className="text-center my-4">
                 <a
-                  href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
+                  href="https://drive.google.com/file/d/14P0I4yW84LRT1tpomI_w08-SKeQfnP_p/view?usp=drivesdk"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

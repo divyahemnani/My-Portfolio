@@ -17,7 +17,7 @@ const Resume = () => {
           style={{ justifyContent: "center", position: "relative" }}
         >
           <a
-            href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/14P0I4yW84LRT1tpomI_w08-SKeQfnP_p/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -49,7 +49,7 @@ const Resume = () => {
           style={{ justifyContent: "center", position: "relative" }}
         >
           <a
-            href="https://drive.google.com/file/d/197ZaeMCMkgzO-BAneffVnrmKcVO1yrfG/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/14P0I4yW84LRT1tpomI_w08-SKeQfnP_p/view?usp=drivesdk"
             target="_blank"
             rel="noopener noreferrer"
           >
