@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/My-Portfolio/static/css/main.6d66cc03.css",
-    "main.js": "/My-Portfolio/static/js/main.df4d3800.js",
+    "main.js": "/My-Portfolio/static/js/main.1ab93498.js",
     "static/media/laptop.jpg": "/My-Portfolio/static/media/laptop.60fdec7f0ade526fadfc.jpg",
     "static/media/newimg.png": "/My-Portfolio/static/media/newimg.642463ee5b9db24db6b7.png",
-    "static/media/Divya React Developer Resume.pdf": "/My-Portfolio/static/media/Divya React Developer Resume.d0b8a17f44cadd0dd60b.pdf",
+    "static/media/DivyaH React Developer Resume.pdf": "/My-Portfolio/static/media/DivyaH React Developer Resume.a9365b08feb675a1fc1f.pdf",
     "static/media/power-bi.384x512.png": "/My-Portfolio/static/media/power-bi.384x512.b0a1152cdc0e94dc7b89.png",
     "static/media/python_5968350.png": "/My-Portfolio/static/media/python_5968350.6a5cbc319ab3ddf8ef92.png",
     "static/media/Bootstrapnew.png": "/My-Portfolio/static/media/Bootstrapnew.7ec629589d73f8a028c5.png",
@@ -20,10 +20,10 @@
     "static/media/school.svg": "/My-Portfolio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/My-Portfolio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "main.6d66cc03.css.map": "/My-Portfolio/static/css/main.6d66cc03.css.map",
-    "main.df4d3800.js.map": "/My-Portfolio/static/js/main.df4d3800.js.map"
+    "main.1ab93498.js.map": "/My-Portfolio/static/js/main.1ab93498.js.map"
   },
   "entrypoints": [
     "static/css/main.6d66cc03.css",
-    "static/js/main.df4d3800.js"
+    "static/js/main.1ab93498.js"
   ]
 }
